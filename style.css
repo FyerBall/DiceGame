@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Staatliches');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #84a9ac;
+  font-family: 'Amatic SC', cursive;
+
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+
+  height: 100vh;
+  color: #707070;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+}
+
+img {
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+.header {
+  display: flex;
+  font-weight: 500;
+  margin: 3rem auto;
+  align-items: center;
+
+  justify-content: center;
+  border-radius: 1rem;
+  font-size: 5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem auto;
+}
+.title {
+  text-align: center;
+}
+.player1,
+.player2 {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  color: #f7f7ee;
+}
+
+.winner {
+  color: #fb7813;
+}
